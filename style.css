@@ -1,0 +1,41 @@
+body{
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    margin: 0px;
+    font-size: large;
+}
+.input_class{
+    margin: 5px;
+    border-radius: 5px;
+    width: 20%;
+    color: white;
+    background-color: darkcyan;
+    border: 4px  grey;
+}
+.object_name_label{
+    font-weight: bold;
+    font-size: 15px;
+}
+    canvas{
+        box-shadow:5px 5px 5px grey;
+        border:3px solid black;
+        animation:obj_finder;
+        animation-duration:4s;
+        animation-iteration-count: infinite;
+}
+@keyframes obj_finder{
+    from{
+        color: darkblue;
+    }
+    to{
+        color:gold;
+    }
+}
+p{
+    color: black;
+    margin-bottom: 0px;
+    font-size: small;
+}
